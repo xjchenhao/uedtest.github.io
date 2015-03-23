@@ -1,7 +1,10 @@
-- author: baidu
-  url: http://www.baidu.com
-  intro: 我是百度
+- author: FEX
+  url: http://fex.baidu.com/
+  intro: FEX
+  avatar: /img/avatar/fex.png
 
-- author: taobao
-  url: http://www.taobao.com
-  intro: 我是淘宝
+
+- author: nwind
+  url: http://wuduoyi.com/
+  intro: 我可以学
+  avatar: /img/avatar/nwind.png
