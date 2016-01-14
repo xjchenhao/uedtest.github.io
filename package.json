@@ -1,0 +1,15 @@
+{
+  "name": "xjchenhao.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "fis3": "^3.3.7",
+    "fis3-parser-stylus": "^0.1.0"
+  },
+  "scripts": {},
+  "author": "xjchenhao",
+  "license": "ISC"
+}
