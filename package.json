@@ -2,14 +2,21 @@
   "name": "xjchenhao.github.io",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "fis3": "^3.3.7",
-    "fis3-parser-stylus": "^0.1.0"
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "server": "jekyll server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xjchenhao/xjchenhao.github.io.git"
+  },
   "author": "xjchenhao",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xjchenhao/xjchenhao.github.io/issues"
+  },
+  "homepage": "https://github.com/xjchenhao/xjchenhao.github.io#readme"
 }

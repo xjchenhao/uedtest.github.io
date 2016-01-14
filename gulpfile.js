@@ -14,13 +14,6 @@ gulp.task('server', function () {
             return false;
         }
 
-        exec('fis3 release', function (err, stdout, stderr) {
-            if (err) {
-                console.log(err);
-                return false;
-            }
-
-            console.log('jekyll启动成功');
-        });
+        console.log('jekyll启动成功');
     });
 });
