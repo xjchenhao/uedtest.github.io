@@ -1,0 +1,17 @@
+{
+  "name": "xjchenhao.github.io",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xjchenhao/xjchenhao.github.io",
+  "authors": [
+    "xjchenhao <wy.chenhao@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ]
+}
