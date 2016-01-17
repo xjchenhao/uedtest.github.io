@@ -1,18 +1,19 @@
 $ui-color-main = #998d71
 
-.mid {
+.mid
   margin 0 auto
   width 70%
-}
+  .mobile &
+    width 80%
 
 .header
   background url("../image/hd-bg.jpg") repeat-x center top
-  height 499px
+  max-height 499px
+  padding 50px 0
   .main
     overflow hidden
     text-align center
     .logo
-      margin-top 50px
       display inline-block
       width 160px
       height 160px
@@ -35,6 +36,7 @@ $ui-color-main = #998d71
       line-height 1.2
       color #fff
     .subtitle
+      font-size 18px
       display block
       color #fff
   .nav
@@ -75,7 +77,9 @@ $ui-color-main = #998d71
       li
         position relative
         border-left 2px dotted $ui-color-main
-        padding 10px 35% 50px 40px
+        padding 10px 35% 50px 5%
+        .mobile &
+          padding 10px 0 50px 5%
         &:last-child
           padding-bottom 10px
         &:before
@@ -111,30 +115,31 @@ $ui-color-main = #998d71
           top 30px
           width 25%
           padding 10px
-          /*border 1px solid $ui-color-main*/
+          .mobile &
+            display none
           img
             width 100%
 
-  .blog
+  .blog-banner
     position: relative
     margin-top 50px
-    background url("../image/blog-banner.jpg")  no-repeat center center
+    background url("../image/blog-banner.jpg") no-repeat center center
     background-size cover
     color #fff
     &:before
       content ' '
-      display block!important
+      display block !important
       position absolute
       top 0
       left 0
       width 100%
       height 100%
-      background rgba(0,0,0,0.39)
+      background rgba(0, 0, 0, 0.39)
     .main
       position relative
       display block
       text-align center
-      padding 100px 0
+      padding 10% 0
       color #fff
       .title
         font-size 42px

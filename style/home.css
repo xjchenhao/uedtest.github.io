@@ -2,16 +2,19 @@
   margin: 0 auto;
   width: 70%;
 }
+.mobile .mid {
+  width: 80%;
+}
 .header {
   background: url("../image/hd-bg.jpg") repeat-x center top;
-  height: 499px;
+  max-height: 499px;
+  padding: 50px 0;
 }
 .header .main {
   overflow: hidden;
   text-align: center;
 }
 .header .main .logo {
-  margin-top: 50px;
   display: inline-block;
   width: 160px;
   height: 160px;
@@ -36,6 +39,7 @@
   color: #fff;
 }
 .header .main .subtitle {
+  font-size: 18px;
   display: block;
   color: #fff;
 }
@@ -82,7 +86,10 @@
 .main-con .work-experience .cont li {
   position: relative;
   border-left: 2px dotted #998d71;
-  padding: 10px 35% 50px 40px;
+  padding: 10px 35% 50px 5%;
+}
+.mobile .main-con .work-experience .cont li {
+  padding: 10px 0 50px 5%;
 }
 .main-con .work-experience .cont li:last-child {
   padding-bottom: 10px;
@@ -124,19 +131,21 @@
   top: 30px;
   width: 25%;
   padding: 10px;
-/*border 1px solid $ui-color-main*/
+}
+.mobile .main-con .work-experience .cont li .logo {
+  display: none;
 }
 .main-con .work-experience .cont li .logo img {
   width: 100%;
 }
-.main-con .blog {
+.main-con .blog-banner {
   position: relative;
   margin-top: 50px;
   background: url("../image/blog-banner.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
 }
-.main-con .blog:before {
+.main-con .blog-banner:before {
   content: ' ';
   display: block !important;
   position: absolute;
@@ -146,22 +155,22 @@
   height: 100%;
   background: rgba(0,0,0,0.39);
 }
-.main-con .blog .main {
+.main-con .blog-banner .main {
   position: relative;
   display: block;
   text-align: center;
-  padding: 100px 0;
+  padding: 10% 0;
   color: #fff;
 }
-.main-con .blog .main .title {
+.main-con .blog-banner .main .title {
   font-size: 42px;
 }
-.main-con .blog .main .subtitle {
+.main-con .blog-banner .main .subtitle {
   display: block;
   margin-top: 10px;
   font-size: 16px;
 }
-.main-con .blog .main .subtitle:after {
+.main-con .blog-banner .main .subtitle:after {
   display: block;
   content: ' ';
   height: 3px;
