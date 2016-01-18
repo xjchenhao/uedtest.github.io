@@ -15,7 +15,7 @@
     "tests"
   ],
   "devDependencies": {
-    "qst": "~1.0.8",
-    "requirejs": "~2.1.22"
-  }
+    "qst": "~1.0.8"
+  },
+  "dependencies": {}
 }
