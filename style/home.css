@@ -722,13 +722,15 @@ body {
   text-decoration: underline;
 }
 .main-con .work-experience .tit h3,
-.main-con .skill .tit h3 {
+.main-con .skill .tit h3,
+.main-con .experience .tit h3 {
   font-size: 16px;
   letter-spacing: 3px;
   color: #998d71;
 }
 .main-con .work-experience .tit h3:after,
-.main-con .skill .tit h3:after {
+.main-con .skill .tit h3:after,
+.main-con .experience .tit h3:after {
   display: block;
   content: ' ';
   background: #998d71;
@@ -852,5 +854,33 @@ body {
 }
 .mobile .main-con .skill .cont .skill-charts {
   width: 100%;
+}
+.main-con .experience .cont li {
+  position: relative;
+}
+.main-con .experience .cont li .title {
+  font-size: 24px;
+}
+.main-con .experience .cont li .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  color: #aaa;
+}
+.main-con .experience .cont li .describe {
+  margin-top: 5px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.main-con .experience .cont li .describe a {
+  color: #998d71;
+}
+.main-con .experience .cont li .describe a:hover {
+  color: #80afcc;
+}
+.main-con .experience .cont li+li {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=home.css.map */

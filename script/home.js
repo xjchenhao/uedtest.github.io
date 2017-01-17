@@ -24,8 +24,7 @@ window.onload = function () {
                     {text: '产品意识', max: 100}
                 ],
                 shape: 'circle',
-                center: ['50%', '50%'],
-                radius: 150
+                center: ['50%', '50%']
             }
         ],
         series: [
@@ -84,8 +83,7 @@ window.onload = function () {
                         {text: '构建工具', max: 100},
                         {text: '前端框架', max: 100}
                     ],
-                    center: ['50%', '50%'],
-                    radius: 150
+                    center: ['50%', '50%']
                 }
             ],
             series: [

@@ -174,3 +174,30 @@ $ui-color-main = #998d71
         height 400px
         .mobile &
           width 100%
+  .experience
+    .tit
+      @extend .main-con .work-experience .tit
+    .cont
+      li
+        position relative
+        .title
+          //color $ui-color-main
+          font-size 24px
+        .time
+          position absolute
+          right 0
+          top 0
+          font-size 16px
+          color #aaa
+        .describe
+          margin-top 5px
+          color #555
+          font-size 16px
+          line-height 1.5
+          a
+            color $ui-color-main
+            &:hover
+              color #80afcc
+        &+li{
+          margin-top 20px
+        }
