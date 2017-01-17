@@ -178,26 +178,13 @@ $ui-color-main = #998d71
     .tit
       @extend .main-con .work-experience .tit
     .cont
+      @extend .main-con .work-experience .cont
       li
-        position relative
+        padding: 10px 0 50px 5%;
         .title
-          //color $ui-color-main
           font-size 24px
-        .time
-          position absolute
-          right 0
-          top 0
-          font-size 16px
-          color #aaa
         .describe
-          margin-top 5px
-          color #555
-          font-size 16px
-          line-height 1.5
           a
-            color $ui-color-main
+            color #80afcc
             &:hover
-              color #80afcc
-        &+li{
-          margin-top 20px
-        }
+              color #1c4774

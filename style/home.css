@@ -738,21 +738,26 @@ body {
   width: 60px;
   margin: 15px 0;
 }
-.main-con .work-experience .cont {
+.main-con .work-experience .cont,
+.main-con .experience .cont {
   margin-top: 30px;
 }
-.main-con .work-experience .cont li {
+.main-con .work-experience .cont li,
+.main-con .experience .cont li {
   position: relative;
   border-left: 2px dotted #998d71;
   padding: 10px 35% 50px 5%;
 }
-.mobile .main-con .work-experience .cont li {
+.mobile .main-con .work-experience .cont li,
+.mobile .main-con .experience .cont li {
   padding: 10px 0 50px 5%;
 }
-.main-con .work-experience .cont li:last-child {
+.main-con .work-experience .cont li:last-child,
+.main-con .experience .cont li:last-child {
   padding-bottom: 10px;
 }
-.main-con .work-experience .cont li:before {
+.main-con .work-experience .cont li:before,
+.main-con .experience .cont li:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -768,32 +773,38 @@ body {
   transform: translateX(-50%);
   margin-left: -1px;
 }
-.main-con .work-experience .cont li .company {
+.main-con .work-experience .cont li .company,
+.main-con .experience .cont li .company {
   font-size: 30px;
 }
-.main-con .work-experience .cont li .time {
+.main-con .work-experience .cont li .time,
+.main-con .experience .cont li .time {
   margin-top: 10px;
   font-size: 16px;
   color: #998d71;
 }
-.main-con .work-experience .cont li .describe {
+.main-con .work-experience .cont li .describe,
+.main-con .experience .cont li .describe {
   margin-top: 20px;
   font-size: 16px;
   color: #555;
   line-height: 1.5;
   word-break: break-all;
 }
-.main-con .work-experience .cont li .logo {
+.main-con .work-experience .cont li .logo,
+.main-con .experience .cont li .logo {
   position: absolute;
   right: 0;
   top: 30px;
   width: 25%;
   padding: 10px;
 }
-.mobile .main-con .work-experience .cont li .logo {
+.mobile .main-con .work-experience .cont li .logo,
+.mobile .main-con .experience .cont li .logo {
   display: none;
 }
-.main-con .work-experience .cont li .logo img {
+.main-con .work-experience .cont li .logo img,
+.main-con .experience .cont li .logo img {
   width: 100%;
 }
 .main-con .blog-banner {
@@ -856,31 +867,15 @@ body {
   width: 100%;
 }
 .main-con .experience .cont li {
-  position: relative;
+  padding: 10px 0 50px 5%;
 }
 .main-con .experience .cont li .title {
   font-size: 24px;
 }
-.main-con .experience .cont li .time {
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 16px;
-  color: #aaa;
-}
-.main-con .experience .cont li .describe {
-  margin-top: 5px;
-  color: #555;
-  font-size: 16px;
-  line-height: 1.5;
-}
 .main-con .experience .cont li .describe a {
-  color: #998d71;
-}
-.main-con .experience .cont li .describe a:hover {
   color: #80afcc;
 }
-.main-con .experience .cont li+li {
-  margin-top: 20px;
+.main-con .experience .cont li .describe a:hover {
+  color: #1c4774;
 }
 /*# sourceMappingURL=home.css.map */
