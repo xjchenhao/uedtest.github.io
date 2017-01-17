@@ -833,4 +833,24 @@ body {
   margin: 15px auto;
   background-color: #fff;
 }
+.main-con .skill .cont {
+  font-size: 0;
+  line-height: 0;
+}
+.main-con .skill .cont .professional-charts {
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+}
+.mobile .main-con .skill .cont .professional-charts {
+  width: 100%;
+}
+.main-con .skill .cont .skill-charts {
+  display: inline-block;
+  width: 50%;
+  height: 400px;
+}
+.mobile .main-con .skill .cont .skill-charts {
+  width: 100%;
+}
 /*# sourceMappingURL=home.css.map */
