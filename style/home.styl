@@ -160,18 +160,16 @@ $ui-color-main = #998d71
     .tit
       @extend .main-con .work-experience .tit
     .cont
-      font-size 0
-      line-height 0
       .professional-charts
         display: inline-block
         width 50%
-        height 400px
+        height 300px
         .mobile &
           width 100%
       .skill-charts
         display: inline-block
         width 50%
-        height 400px
+        height 300px
         .mobile &
           width 100%
   .experience
@@ -188,3 +186,31 @@ $ui-color-main = #998d71
             color #80afcc
             &:hover
               color #1c4774
+
+  .life
+    display none
+    .tit
+      @extend .main-con .work-experience .tit
+
+.footer
+  font-size 16px
+  line-height 50px
+  background-color #eee
+  color #666j
+  text-align center
+  vertical-align middle
+//@media print
+//  .mid
+//    width 90%
+//  .header
+//    display none
+//
+//  .main-con
+//    .blog-banner
+//      display none
+//    .work-experience
+//      .cont
+//        li
+//          padding: 10px 0 50px 5%;
+//          .logo
+//            display none

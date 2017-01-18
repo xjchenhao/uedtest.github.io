@@ -723,14 +723,16 @@ body {
 }
 .main-con .work-experience .tit h3,
 .main-con .skill .tit h3,
-.main-con .experience .tit h3 {
+.main-con .experience .tit h3,
+.main-con .life .tit h3 {
   font-size: 16px;
   letter-spacing: 3px;
   color: #998d71;
 }
 .main-con .work-experience .tit h3:after,
 .main-con .skill .tit h3:after,
-.main-con .experience .tit h3:after {
+.main-con .experience .tit h3:after,
+.main-con .life .tit h3:after {
   display: block;
   content: ' ';
   background: #998d71;
@@ -846,14 +848,10 @@ body {
   margin: 15px auto;
   background-color: #fff;
 }
-.main-con .skill .cont {
-  font-size: 0;
-  line-height: 0;
-}
 .main-con .skill .cont .professional-charts {
   display: inline-block;
   width: 50%;
-  height: 400px;
+  height: 300px;
 }
 .mobile .main-con .skill .cont .professional-charts {
   width: 100%;
@@ -861,7 +859,7 @@ body {
 .main-con .skill .cont .skill-charts {
   display: inline-block;
   width: 50%;
-  height: 400px;
+  height: 300px;
 }
 .mobile .main-con .skill .cont .skill-charts {
   width: 100%;
@@ -877,5 +875,16 @@ body {
 }
 .main-con .experience .cont li .describe a:hover {
   color: #1c4774;
+}
+.main-con .life {
+  display: none;
+}
+.footer {
+  font-size: 16px;
+  line-height: 50px;
+  background-color: #eee;
+  color: #666;
+  text-align: center;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=home.css.map */
