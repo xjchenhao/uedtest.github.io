@@ -885,8 +885,9 @@ body {
   background-color: #eee;
   color: #666;
   text-align: center;
+  vertical-align: middle;
 }
-.mobile .footer vertical-align middle {
+.mobile .footer {
   font-size: 12px;
 }
 /*# sourceMappingURL=home.css.map */
