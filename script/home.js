@@ -13,8 +13,24 @@ window.onload = function () {
     //--------------------------------------------------------【专业技能】
 
     echarts.init(document.getElementById('professionalCharts')).setOption({
-        radar: [
-            {
+        media: [{
+            query: {
+                maxWidth: 500
+            },
+            option: {
+                radar: {
+                    radius: 60
+                }
+            }
+        }, {
+            option: {
+                radar: {
+                    radius: 150
+                }
+            }
+        }],
+        baseOption: {
+            radar: {
                 indicator: [
                     {text: '前端架构', max: 100},
                     {text: '设计模式', max: 100},
@@ -26,9 +42,8 @@ window.onload = function () {
                 shape: 'circle',
                 center: ['50%', '50%']
             }
-        ],
-        series: [
-            {
+            ,
+            series: {
                 name: '专业',
                 type: 'radar',
                 itemStyle: {
@@ -68,10 +83,27 @@ window.onload = function () {
                     }
                 ]
             }
-        ]
+
+        }
     });
-    echarts.init(document.getElementById('skillCharts')).setOption(
-        {
+    echarts.init(document.getElementById('skillCharts')).setOption({
+        media: [{
+            query: {
+                maxWidth: 500
+            },
+            option: {
+                radar: {
+                    radius: 60
+                }
+            }
+        }, {
+            option: {
+                radar: {
+                    radius: 150
+                }
+            }
+        }],
+        baseOption: {
             radar: [
                 {
                     indicator: [
@@ -128,5 +160,6 @@ window.onload = function () {
                     ]
                 }
             ]
-        });
+        }
+    });
 };
